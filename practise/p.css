@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 7px;
+   
+}
+
+.nav-bar a {
+    filter: brightness(0) invert(1);
+    border-bottom: none;
+    transition: background-color 0.3s;
+    padding: 7px 15px;
+}
+
+.fa.fa-search {
+    margin-left: auto;
+}
+
+.nav-bar a:hover {
+    background-color: grey;
+    cursor: pointer;
+    filter: brightness(0.8) invert(1); /* Adjust the brightness filter for the links on hover */
+
+
+}
+
+.header-class {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-class h1 {
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Oswald;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 72px;
+}
+
+.header-class p{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 24px;
+    text-size-adjust: 100%;
+    line-height: 24px;
+}
+
+.header-class p span {
+    background-color: black;
+    color: white;
+    width: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.jane-img {
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-txt {
+    position:absolute;
+    top: 40%;
+    left: 2%;
+    margin-left: 10px;
+    color: white;
+}
+
+.img-txt h2 {
+    font-weight: bold;
+    font-family: Oswald;
+    font-size: xx-large;
+    font-style: normal;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img-txt h1 {
+    font-weight: bold;
+    font-family: Oswald;
+    font-size: 60px;
+    font-style: normal;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.sub-btn {
+    padding:20px;
+    width: 130px;
+    height: auto;
+    background-color: #D3D3D3;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    padding: 8px 16px;
+}
+
+.container-left {
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 62%;
+    height:950px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-class-he {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Oswald;
+    font-size: medium;
+}
+
+.image-class-he {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image-class-he img {
+    width: 850px;
+    padding-bottom: 20px;
+}
+
+
+.btn-like {
+    float: left;
+    margin-left: 13px;
+    margin-top: 30px;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-reply {
+    float: right;
+    margin-right: 13px;
+    margin-top: 30px;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.container-right {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-bottom: 20px; */
+    width: 37%;
+    height:950px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+
+}
+
+.right-img {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 468px;
+    height: 240px;
+    box-sizing: border-box;
+}
+
+.right-img img {
+    width: 468px;
+    height: 240px;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 468px;
+    height: 120px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.posts-container {
+    width: 468px;
+    margin-top: 40px;
+    margin-left: 10px;
+    height:50px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Oswald;
+}
+
+.li-posts {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.user-posts {
+    list-style: none;
+    
+}
+
+.user-posts li {
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+    /* flex-direction: row; */
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.user-posts li:hover {
+    background-color: paleturquoise;
+    cursor: pointer;
+}
+
+.text-container {
+    padding-left: 20px;
+    font-style: italic;
+    line-height: 1.5;
+
+}
+
